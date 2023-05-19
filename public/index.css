@@ -1,0 +1,59 @@
+/* body {
+  margin: 0px;
+  width: 340px;
+  height: 868px;
+  background-color: rgba(35, 37, 44, 1);
+} */
+.pic {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+
+  width: 200px;
+  height: auto;
+  border-radius: 20%;
+}
+.link,
+.inst,
+.fb,
+.git {
+  height: 25px;
+  padding-left: 50px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.buttons {
+  height: 10px;
+  width: 10px;
+}
+.container {
+  position: absolute;
+  width: 317px;
+  height: 980px;
+  left: 116px;
+  top: 44px;
+  padding-top: 44px;
+  padding-left: 116px;
+  padding-right: 116px;
+  padding-bottom: 44px;
+  position: absolute;
+  border-radius: 10%;
+
+  background-color: rgba(35, 37, 44, 1);
+}
+/* .email {
+  background-image: url(emailbtn.png);
+}
+.linkBtn {
+  background-image: url(linkbtn.png);
+} */
+
+h1,
+h2,
+h3 {
+  color: azure;
+}
