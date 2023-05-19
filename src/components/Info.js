@@ -1,10 +1,11 @@
 import React from "react";
 import self from "./self.jpg";
 import email from "./emailbtn.png";
-import lin from "./linkbtn.png";
+import link from "./link.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
+function myfunction() {}
 function Info() {
   return (
     <div className="info">
@@ -12,15 +13,24 @@ function Info() {
       <h1 className="name">Jacek Skubisz</h1>
       <h2 className="proffesion"> Junior Frondend Developer</h2>
       <h3 className="github">
-        <a href="https://github.com/Qautno166">My GitHub</a>
+        <a className="website" href="https://github.com/Qautno166">
+          <span className="mygit">skubisz.webiste</span>
+        </a>
       </h3>
       <div className="buttons">
-        <button className="email" src={email}>
-          <FontAwesomeIcon icon={faCoffee} />
-          Email
-        </button>
-        <button className="" src={lin}>
-          Linkedin
+        <a href="mailto:jacek.skubisz@gmail.com" src={email}>
+          <button className="email">
+            <FontAwesomeIcon icon={faEnvelope} /> Email
+          </button>
+        </a>
+        <button class="lin">
+          <img
+            className="linkpic"
+            src={link}
+            alt="my"
+            onClick={myfunction}
+          ></img>
+          <a href="https://www.linkedin.com/in/jacek-skubisz">LinkedIn</a>
         </button>
       </div>
     </div>
