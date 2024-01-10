@@ -11,7 +11,7 @@ function Info() {
     <div className="info">
       <img className="pic" src={self} alt="profile" />
       <h1 className="name">Jacek Skubisz</h1>
-      <h2 className="proffesion"> Junior Frondend Developer</h2>
+      <h2 className="proffesion">Maritime Manager/Specialist </h2>
       <h3 className="github">
         <a className="website" href="https://github.com/Qautno166">
           <span className="mygit">skubisz.webiste</span>
